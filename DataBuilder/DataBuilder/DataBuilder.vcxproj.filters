@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\header">
+      <UniqueIdentifier>{1d1f0a1b-8508-4852-a282-d112bfc13e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\source">
+      <UniqueIdentifier>{27c27082-6c80-4504-9933-aa3a43ccefa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\debug">
+      <UniqueIdentifier>{7846a781-7f11-4e3b-bb27-3798259d5596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\source\base">
+      <UniqueIdentifier>{c46d143e-b589-4fcb-84c1-2da355c9735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\header\base">
+      <UniqueIdentifier>{976ac700-6031-4dda-a587-7e2786ab4ef3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\test_main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\header\base\resource_base.cpp">
+      <Filter>ソース ファイル\source\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\header\base\resource_base.h">
+      <Filter>ソース ファイル\header\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
